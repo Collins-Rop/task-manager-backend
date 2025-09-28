@@ -1,4 +1,3 @@
-// User.java
 package com.taskmanager.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
