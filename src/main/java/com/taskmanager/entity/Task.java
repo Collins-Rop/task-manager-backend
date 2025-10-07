@@ -32,7 +32,6 @@ public class Task {
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
 
-    // Default constructor
     public Task() {}
 
     public Task(String title, String description, User user) {
@@ -55,7 +54,6 @@ public class Task {
         updatedAt = LocalDateTime.now();
     }
 
-    // Getters and setters
     public Long getId() {
         return id;
     }
