@@ -24,7 +24,6 @@ public class User {
     @JsonIgnore
     private List<Task> tasks;
 
-    // Default constructor
     public User() {}
 
     public User(String username, String password) {
@@ -32,7 +31,6 @@ public class User {
         this.password = password;
     }
 
-    // Getters and setters
     public Long getId() {
         return id;
     }
